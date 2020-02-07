@@ -2,7 +2,7 @@
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/SwiftyAlert.svg)]()
 [![GitHub release](https://img.shields.io/github/release/simorgh3196/SwiftyAlert.svg)]()
-[![Swift version](https://img.shields.io/badge/swift-4.0-blue.svg?style=flat)]()
+[![Swift version](https://img.shields.io/badge/swift-4.2-blue.svg?style=flat)]()
 
 Simple UIAlertController and UIAlertView wrapper.
 Enable to use Swifty.
