@@ -41,7 +41,7 @@ public class Alert {
      - parameter message : Alert message
      - parameter style   : UIAlertControllerStyle. Default is .alert.
      */
-    public init(title: String, message: String = "", style: UIAlertControllerStyle = .alert) {
+    public init(title: String, message: String = "", style: UIAlertController.Style = .alert) {
         controller = UIAlertController(title: title, message: message, preferredStyle: style)
     }
 
@@ -169,7 +169,9 @@ public class Alert {
             NotificationCenter.default.addObserver(
                 s,
                 selector: #selector(s.textFieldDidChange(_:)),
-                name: NSNotification.Name.UITextFieldTextDidChange,
+                name: UITextField.textDidChangeNotification,
+                //name: NSNotification.Name.UITextFieldTextDidChange,
+                //textDidChangeNotification,
                 object: textField)
         }
         return self
