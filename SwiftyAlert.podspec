@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage            = "https://github.com/simorgh3196/SwiftyAlert"
   s.license             = { :type => "MIT", :file => "LICENSE" }
   s.author              = { "simorgh3196" => "simorgh3196@gmail.com" }
-  s.platform            = :ios, "9.0"
+  s.platform            = :ios, "8.0"
   s.source              = { :git => "https://github.com/poznyakd/SwiftyAlert.git", :tag => s.version }
   s.source_files        = "SwiftyAlert/**/*.swift"
   s.requires_arc = true
